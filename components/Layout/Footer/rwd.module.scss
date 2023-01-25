@@ -1,0 +1,33 @@
+@use "sass:map";
+@import "./styles.module.scss";
+
+@media only screen and (min-width: 350px) {
+}
+@media only screen and (min-width: 500px) {
+  .wrapper {
+    &Block:nth-child(1) {
+      min-width: 150px;
+    }
+
+    &Block {
+      width: 56px;
+
+      &Github {
+        display: block;
+      }
+    }
+
+    &Block:nth-last-child(1) {
+      position: absolute;
+      right: 0;
+
+      min-width: 160px;
+      border: 0;
+      border-left: var(--border);
+    }
+  }
+}
+@media only screen and (min-width: 769px) {
+}
+@media only screen and (min-width: 1100px) {
+}

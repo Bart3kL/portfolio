@@ -1,0 +1,26 @@
+@use "sass:map";
+@import "./styles.module.scss";
+
+@media only screen and (min-width: 350px) {
+}
+@media only screen and (min-width: 769px) {
+}
+@media only screen and (min-width: 1100px) {
+  .wrapper {
+    top: 0;
+    left: 311px;
+
+    width: 50%;
+    margin-top: 0;
+    border-top: 0;
+
+    &NavPanel {
+      display: flex;
+    }
+
+    &Content {
+      margin-top: 50px;
+      margin-left: 15%;
+    }
+  }
+}

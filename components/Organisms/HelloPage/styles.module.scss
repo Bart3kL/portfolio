@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &Nav {
+    &Box:nth-child(2) {
+      display: none;
+
+      border-top: var(--border);
+    }
+
+    &Box {
+      display: flex;
+      flex-direction: column;
+
+      &Title {
+        display: flex;
+        align-items: center;
+
+        height: 38px;
+        width: 100%;
+        padding-left: 15px;
+        border-bottom: var(--border);
+
+        font-size: 16px;
+        font-weight: 400;
+
+        svg {
+          width: 20px;
+
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}

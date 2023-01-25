@@ -1,0 +1,58 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  width: 100%;
+
+  &Content {
+    position: relative;
+    z-index: 10;
+
+    width: 100%;
+
+    &Welcome {
+      font-weight: 400;
+      font-size: 18px;
+      color: var(--bright-gray-color);
+    }
+
+    &Name {
+      font-weight: 400;
+      font-size: 42px;
+      color: var(--bright-gray-color);
+      line-height: 50px;
+    }
+
+    &Profession {
+      margin-top: 20px;
+
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--lime-green-color);
+
+      p {
+        display: inline-block;
+      }
+    }
+  }
+
+  &Background {
+    position: absolute;
+    top: 30%;
+
+    height: 60%;
+    width: 100%;
+
+    background: rgb(67, 217, 173);
+    background: linear-gradient(
+      163deg,
+      rgba(10, 57, 43, 0.863) 49%,
+      rgb(25, 33, 92) 75%,
+      rgb(35, 43, 106) 100%
+    );
+
+    filter: blur(150px);
+  }
+}

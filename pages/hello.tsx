@@ -1,12 +1,12 @@
 import React from "react";
 
 import Layout from "@/components/Layout/Layout";
-import HomePage from "@/components/Organisms/HomePage";
+import HelloPage from "@/components/Organisms/HelloPage";
 
-export default function Home() {
+export default function Hello() {
   return (
     <Layout>
-      <HomePage />
+      <HelloPage />
     </Layout>
   );
 }

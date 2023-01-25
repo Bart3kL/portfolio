@@ -1,0 +1,37 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  padding: 5px 0 0 17px;
+  border: 0;
+
+  background-color: transparent;
+
+  color: var(--white);
+
+  cursor: pointer;
+
+  &Icons {
+    display: flex;
+    align-items: center;
+
+    margin-right: 5px;
+
+    svg:nth-child(1) {
+      font-size: 25px;
+      color: var(--font-color-primary);
+    }
+
+    svg:nth-child(2) {
+      color: var(--soft-red);
+    }
+
+    svg {
+      font-size: 18px;
+    }
+  }
+
+  &Name {
+    font-weight: 700;
+  }
+}

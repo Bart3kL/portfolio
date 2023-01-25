@@ -1,0 +1,12 @@
+@use "sass:map";
+@import "./styles.module.scss";
+
+@media only screen and (min-width: 350px) {
+}
+@media only screen and (min-width: 769px) {
+  .wrapper {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1100px) {
+}

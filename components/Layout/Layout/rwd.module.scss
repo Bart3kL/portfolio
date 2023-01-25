@@ -1,0 +1,25 @@
+@use "sass:map";
+@import "./styles.module.scss";
+
+@media only screen and (min-width: 350px) {
+}
+@media only screen and (min-width: 769px) {
+  .wrapper {
+    height: calc(100vh - 50px);
+    margin: 25px;
+
+    &Main {
+      height: calc(100vh - 162px);
+    }
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .wrapper {
+    height: calc(100vh - 138px);
+    margin: 69px;
+
+    &Main {
+      height: calc(100vh - 250px);
+    }
+  }
+}

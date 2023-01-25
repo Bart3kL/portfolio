@@ -1,0 +1,41 @@
+.wrapper {
+  position: fixed;
+  left: 0;
+  top: 66px;
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 0 10px;
+
+  background-color: var(--black-color);
+
+  list-style: none;
+
+  &Nav:nth-child(1) {
+    border-top: var(--border);
+  }
+
+  &Nav {
+    width: 100%;
+    height: 56px;
+    border-right: var(--border);
+    border-left: var(--border);
+    border-bottom: var(--border);
+
+    font-weight: 500;
+
+    a {
+      display: flex;
+      align-items: center;
+
+      width: 100%;
+      height: 100%;
+      margin-left: 30px;
+
+      color: var(--white-color);
+    }
+  }
+}

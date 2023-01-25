@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 80px;
+  padding-left: 23px;
+
+  &Tab {
+    display: flex;
+
+    width: 130px;
+    margin-left: 13px;
+    margin-top: 5px;
+    border: 0;
+
+    background-color: transparent;
+
+    color: var(--blue-color);
+
+    cursor: pointer;
+
+    svg {
+      width: 30px;
+
+      font-size: 18px;
+    }
+  }
+}

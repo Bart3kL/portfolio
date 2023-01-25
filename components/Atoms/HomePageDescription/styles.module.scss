@@ -1,0 +1,35 @@
+.wrapper {
+  width: 100%;
+  margin-top: 50px;
+
+  &CodeText {
+    color: var(--font-color-primary);
+    line-height: 28px;
+  }
+
+  &Text {
+    position: relative;
+    z-index: 14;
+
+    margin-top: 8px;
+    padding: 0 10px;
+
+    color: var(--blue-color);
+  }
+
+  &GitHub {
+    display: none;
+
+    color: var(--lime-green-color);
+
+    &Variable {
+      margin-right: 10px;
+
+      color: var(--iris-color);
+    }
+
+    &Link {
+      color: var(--soft-red);
+    }
+  }
+}

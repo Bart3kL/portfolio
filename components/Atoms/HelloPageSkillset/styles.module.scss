@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  width: 100%;
+  padding-top: 30px;
+
+  list-style: none;
+
+  &Box {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+
+    text-align: center;
+
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &Icon {
+      font-size: 35px;
+    }
+
+    &Name {
+      font-size: 16px;
+      color: var(--font-color-primary);
+    }
+  }
+
+  &Box:hover {
+    color: var(--font-color-primary);
+  }
+}

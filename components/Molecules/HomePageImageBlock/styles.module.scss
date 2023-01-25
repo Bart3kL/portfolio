@@ -1,0 +1,19 @@
+.wrapper {
+  display: none;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 35%;
+  height: 100%;
+
+  &Image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+    background-image: url("https://images.pexels.com/photos/5474031/pexels-photo-5474031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-size: cover;
+  }
+}

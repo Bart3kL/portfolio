@@ -1,0 +1,28 @@
+@use "sass:map";
+@import "./styles.module.scss";
+
+@media only screen and (min-width: 350px) {
+}
+@media only screen and (min-width: 769px) {
+}
+@media only screen and (min-width: 1100px) {
+  .wrapper {
+    width: 60%;
+    padding-left: 13%;
+
+    text-align: left;
+
+    &Background {
+      display: none;
+    }
+
+    &Content {
+      &Name {
+        font-weight: 400;
+        font-size: 62px;
+        color: var(--bright-gray-color);
+        line-height: 72px;
+      }
+    }
+  }
+}

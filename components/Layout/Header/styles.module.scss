@@ -1,0 +1,44 @@
+.wrapper {
+  z-index: 11;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 56px;
+  border-bottom: var(--border);
+
+  background-color: var(--black-color);
+
+  &ActivePage {
+    padding-bottom: 3px;
+    border-bottom: 2px solid var(--orange-color);
+
+    color: var(--white-color);
+  }
+
+  &Name {
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    min-width: 213px;
+    padding: 0 10px;
+  }
+
+  &Icon {
+    display: flex;
+
+    border: 0;
+
+    background-color: transparent;
+
+    svg {
+      margin-right: 10px;
+
+      font-size: 32px;
+      color: var(--font-color-primary);
+
+      cursor: pointer;
+    }
+  }
+}
