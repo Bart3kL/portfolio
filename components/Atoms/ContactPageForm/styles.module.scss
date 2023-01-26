@@ -1,0 +1,49 @@
+.wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  &Box:nth-child(2),
+  &Box:nth-child(3) {
+    margin-top: 20px;
+  }
+  &Box {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    label {
+      color: var(--font-color-primary);
+    }
+
+    &Input {
+      border-radius: 7px;
+
+      max-width: 371px;
+      height: 42px;
+      background-color: transparent;
+      border: var(--border);
+      margin-top: 10px;
+      color: var(--white-color);
+      padding-left: 20px;
+    }
+    &Textarea {
+      padding-top: 15px;
+      height: 120px;
+      resize: none;
+    }
+  }
+  &Button {
+    width: 129px;
+    margin-top: 20px;
+    height: 38px;
+    background-color: #1c2b3a;
+    border: 0;
+    border-radius: 8px;
+    color: var(--white-color);
+    cursor: pointer;
+    transition: border 0.3s, background-color 0.3s;
+  }
+  &Button:hover {
+    border: var(--border);
+    background-color: transparent;
+  }
+}

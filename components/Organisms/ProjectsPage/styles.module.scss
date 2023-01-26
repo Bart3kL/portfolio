@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border-right: var(--border);
+  &Title {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 38px;
+    width: 100%;
+    border-bottom: var(--border);
+    svg {
+      font-size: 32px;
+      width: 20px;
+    }
+  }
+}

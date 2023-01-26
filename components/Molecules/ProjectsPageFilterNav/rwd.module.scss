@@ -1,0 +1,22 @@
+@use "sass:map";
+@import "./styles.module.scss";
+
+@media only screen and (min-width: 350px) {
+}
+@media only screen and (min-width: 769px) {
+}
+@media only screen and (min-width: 1100px) {
+  .wrapper {
+    &TechList {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    &Projects {
+      display: block;
+      width: unset;
+      left: 400px;
+      height: 100%;
+      top: 40px;
+    }
+  }
+}

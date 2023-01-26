@@ -1,0 +1,20 @@
+.wrapper {
+  max-width: 550px;
+  h1 {
+    text-transform: uppercase;
+
+    color: var(--bright-gray-color);
+  }
+  &Description {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--lime-green-color);
+    p {
+      font-size: 18px;
+      margin-right: 10px;
+      font-style: italic;
+      display: inline-block;
+      color: #808080;
+    }
+  }
+}

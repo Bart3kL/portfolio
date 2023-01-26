@@ -10,6 +10,7 @@
   --lime-green-color: #43d9ad;
   --soft-red: #e99287;
   --black-color: #000a13;
+  --mobile-nav: #010f1b;
 }
 *,
 *::before,
@@ -22,7 +23,7 @@
 body {
   background-color: #000305;
 
-  font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
   color: #fff;
 }
 

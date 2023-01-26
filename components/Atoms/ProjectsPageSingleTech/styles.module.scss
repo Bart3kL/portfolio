@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  margin: 5px 0;
+  width: 50%;
+  color: #607b96;
+  &Input {
+    appearance: none;
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #607b96;
+    cursor: pointer;
+  }
+  &Input:checked {
+    outline: none;
+    appearance: auto;
+    accent-color: #607b96;
+
+    ~ div {
+      p:nth-child(1) {
+        opacity: 1;
+      }
+      p:nth-child(2) {
+        color: white;
+      }
+    }
+  }
+  &Name {
+    display: flex;
+    &Icon {
+      margin-right: 10px;
+      opacity: 0.5;
+      svg {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+}
