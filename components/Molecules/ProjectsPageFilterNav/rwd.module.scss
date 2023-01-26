@@ -12,11 +12,12 @@
       flex-wrap: nowrap;
     }
     &Projects {
-      display: block;
-      width: unset;
       left: 400px;
-      height: 100%;
       top: 40px;
+      display: block;
+
+      width: unset;
+      height: 100%;
     }
   }
 }

@@ -1,16 +1,17 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Image from "next/image";
+
+import { ProjectsPageTechContentProps } from "@/types/ProjectsPageTechContent";
 
 import styles from "./rwd.module.scss";
 
 const ProjectsPageTechContent = ({
   image: { src, alt },
-  index,
   tech,
   description,
-}: any) => {
+}: ProjectsPageTechContentProps) => {
   return (
-    <div key={index} className={styles.wrapper}>
+    <div className={styles.wrapper}>
       <div className={styles.wrapperImage}>
         <Image src={src} alt={alt} width={370} height={150} />
       </div>
@@ -21,7 +22,7 @@ const ProjectsPageTechContent = ({
             <a href="">view-project</a>
           </button>
           <ul className={styles.wrapperContentBottomBlockTech}>
-            {tech.map(({ icon }: any, i: any) => (
+            {tech.map(({ icon }: { icon: ReactNode }, i: number) => (
               <li key={i}>{icon}</li>
             ))}
           </ul>

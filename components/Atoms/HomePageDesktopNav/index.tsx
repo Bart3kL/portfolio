@@ -4,10 +4,11 @@ import clsx from "clsx";
 import { useRouter } from "next/router";
 
 import { navigation } from "./untils";
+import { NavProps } from "@/types/HomePageMobileNav/types";
 
 import styles from "./rwd.module.scss";
 
-export const HomePageDesktopNav = ({ activePage }: any) => {
+export const HomePageDesktopNav = ({ activePage }: NavProps) => {
   const router = useRouter();
   return (
     <ul className={styles.wrapper}>

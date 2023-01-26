@@ -1,9 +1,8 @@
 import React from "react";
-import { clsx } from "clsx";
 
 import styles from "./rwd.module.scss";
 
-const ContactPageFormHeader = ({ title, description }: any) => {
+const ContactPageFormHeader = () => {
   return (
     <div className={styles.wrapper}>
       <h1>_GET-IN-TOUCH</h1>

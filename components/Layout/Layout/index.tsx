@@ -6,7 +6,7 @@ import Footer from "../Footer";
 
 import styles from "./rwd.module.scss";
 
-export const Layout = ({ children }: any) => {
+export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <motion.div
       initial={{ x: 0, opacity: 0 }}

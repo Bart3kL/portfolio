@@ -1,8 +1,15 @@
 import React from "react";
 import { Tab } from "@headlessui/react";
+
+import { HelloPageFileContentProps } from "@/types/HelloPageFileContent/types";
+
 import styles from "./rwd.module.scss";
 
-const HelloPageFileContent = ({ content, menu, fileName }: any) => {
+const HelloPageFileContent = ({
+  content,
+  menu,
+  fileName,
+}: HelloPageFileContentProps) => {
   return (
     <Tab.Panels className={styles.wrapper}>
       <Tab.Panel>
@@ -10,7 +17,7 @@ const HelloPageFileContent = ({ content, menu, fileName }: any) => {
           // {menu}{" "}
           <p className={styles.wrapperFileNameSubmenu}>/ {fileName}</p>
         </div>
-        {content.map(({ text }: any, i: any) => (
+        {content.map(({ text }, i) => (
           <div className={styles.wrapperContent} key={i}>
             <span>{i}</span>
             <p>{text}</p>

@@ -7,15 +7,13 @@
 }
 @media only screen and (min-width: 1100px) {
   .wrapper {
-    margin-top: 15px;
-    &Box {
-      
-      &Input {
-        height: 32px;
-      }
+    &Nav {
+      width: 311px;
+      height: 100%;
+      border-right: var(--border);
 
-      &Textarea {
-        height: 70px;
+      &Box:nth-child(2) {
+        display: flex;
       }
     }
   }

@@ -1,8 +1,11 @@
 .wrapper {
   display: flex;
-  margin: 5px 0;
+
   width: 50%;
+  margin: 5px 0;
+
   color: #607b96;
+
   &Input {
     appearance: none;
     margin-right: 15px;
@@ -12,6 +15,7 @@
     border: 1px solid #607b96;
     cursor: pointer;
   }
+
   &Input:checked {
     outline: none;
     appearance: auto;
@@ -28,9 +32,12 @@
   }
   &Name {
     display: flex;
+
     &Icon {
       margin-right: 10px;
+
       opacity: 0.5;
+
       svg {
         height: 24px;
         width: 24px;

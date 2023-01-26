@@ -5,15 +5,21 @@
 
     color: var(--bright-gray-color);
   }
+
   &Description {
     display: inline-block;
+
     margin-top: 10px;
+
     color: var(--lime-green-color);
+
     p {
-      font-size: 18px;
-      margin-right: 10px;
-      font-style: italic;
       display: inline-block;
+
+      margin-right: 10px;
+
+      font-size: 18px;
+      font-style: italic;
       color: #808080;
     }
   }

@@ -1,55 +1,68 @@
 .wrapper {
+  width: 100%;
   margin: 10px 15px 5px 5px;
 
   &Image {
     display: none;
+
     img {
       border-radius: 15px 15px 0 0;
     }
   }
+
   &Content {
     display: flex;
     flex-direction: column;
+
+    width: 100%;
+    margin-top: -4px;
     padding: 20px;
     border: var(--border);
-    width: 100%;
     border-radius: 15px;
-    margin-top: -4px;
+
     &Details {
       height: 60px;
     }
+
     &BottomBlock {
-      justify-content: space-between;
       align-items: center;
       display: flex;
+      justify-content: space-between;
+
       width: 100%;
+
       &Button {
         width: 129px;
         height: 38px;
-        background-color: #1c2b3a;
         border: 0;
         border-radius: 8px;
-        cursor: pointer;
 
+        background-color: #1c2b3a;
+
+        cursor: pointer;
         transition: border 0.3s, background-color 0.3s;
 
         a {
           color: var(--white-color);
         }
       }
+
       &Button:hover {
-        background-color: transparent;
         border: var(--border);
+
+        background-color: transparent;
       }
+
       &Tech {
         display: flex;
 
         list-style: none;
 
         li {
-          padding-top: 12px;
-          font-size: 30px;
           margin-left: 5px;
+          padding-top: 12px;
+
+          font-size: 30px;
         }
       }
     }

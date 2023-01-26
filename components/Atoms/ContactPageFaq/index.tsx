@@ -2,22 +2,9 @@ import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-import styles from "./styles.module.scss";
+import { faq } from "./untils";
 
-const faq = [
-  {
-    question: "How long will you wait for my answer?",
-    answer: "I usually reply within a few hours",
-  },
-  {
-    question: "How long will you wait for my answer?",
-    answer: "I usually reply within a few hours",
-  },
-  {
-    question: "How long will you wait for my answer?",
-    answer: "I usually reply within a few hours",
-  },
-];
+import styles from "./rwd.module.scss";
 
 const ContactPageFaq = () => {
   return (

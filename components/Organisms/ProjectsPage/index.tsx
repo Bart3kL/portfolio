@@ -1,6 +1,7 @@
 import React from "react";
-import ProjectsPageFilterNav from "@/components/Molecules/ProjectsPageFilterNav";
 import { IoMdArrowDropdown } from "react-icons/io";
+
+import ProjectsPageFilterNav from "@/components/Molecules/ProjectsPageFilterNav";
 
 import styles from "./rwd.module.scss";
 

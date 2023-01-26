@@ -1,8 +1,9 @@
-import React from 'react';
-import ContactPageLeftPanel from '../../Atoms/ContactPageLeftPanel';
-import ContactPageWrapper from '../../Molecules/ContactPageWrapper';
+import React from "react";
 
-import styles from './styles.module.scss';
+import ContactPageLeftPanel from "@/components/Atoms/ContactPageLeftPanel";
+import ContactPageWrapper from "@/components/Molecules/ContactPageWrapper";
+
+import styles from "./rwd.module.scss";
 
 const ContactPage = () => {
   return (

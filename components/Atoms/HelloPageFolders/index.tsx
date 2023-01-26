@@ -3,6 +3,7 @@ import { Disclosure } from "@headlessui/react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { AiFillFolder } from "react-icons/ai";
 
+import { HelloPageFoldersProps } from "@/types/HelloPageFolders/types";
 import styles from "./rwd.module.scss";
 
 export const HelloPageFolders = ({
@@ -13,7 +14,7 @@ export const HelloPageFolders = ({
   menu,
   subMenu,
   index,
-}: any) => {
+}: HelloPageFoldersProps) => {
   return (
     <Disclosure.Button
       className={styles.wrapper}
