@@ -7,10 +7,10 @@ export const HomePageDescription = () => {
   return (
     <div className={styles.wrapper}>
       <p className={styles.wrapperText}>
-        // I am very pleased to host you on my site
+        {"//"} I am very pleased to host you on my site
       </p>
       <p className={styles.wrapperText}>
-        // I hope it's not a waste of time for you :)
+        {"//"} I hope its not a waste of time for you
       </p>
       <div className={styles.wrapperGitHub}>
         <span className={styles.wrapperGitHubVariable}>const</span>
@@ -19,7 +19,7 @@ export const HomePageDescription = () => {
           href="https://github.com/Bart3kL"
           className={styles.wrapperGitHubLink}
         >
-          "https://github.com/Bart3kL"
+          {"https://github.com/Bart3kL"}
         </Link>
       </div>
     </div>

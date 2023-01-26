@@ -14,7 +14,7 @@ const HelloPageFileContent = ({
     <Tab.Panels className={styles.wrapper}>
       <Tab.Panel>
         <div className={styles.wrapperFileName}>
-          // {menu}{" "}
+          {"//"} {menu}
           <p className={styles.wrapperFileNameSubmenu}>/ {fileName}</p>
         </div>
         {content.map(({ text }, i) => (
