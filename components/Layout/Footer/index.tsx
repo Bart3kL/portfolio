@@ -9,13 +9,19 @@ export const Footer = () => {
   return (
     <footer className={styles.wrapper}>
       <div className={styles.wrapperBlock}>find me in:</div>
-      <Link href="" className={styles.wrapperBlock}>
+      <Link
+        href="https://www.facebook.com/bartosz.lewandowski.1257/"
+        className={styles.wrapperBlock}
+      >
         <FaFacebookF />
       </Link>
-      <Link href="" className={styles.wrapperBlock}>
+      <Link
+        href="https://www.instagram.com/leewandowski_b/"
+        className={styles.wrapperBlock}
+      >
         <FaInstagramSquare />
       </Link>
-      <Link href="" className={styles.wrapperBlock}>
+      <Link href="https://github.com/Bart3kL" className={styles.wrapperBlock}>
         <p className={styles.wrapperBlockGithub}>@Bart3kL</p> <FaGithub />
       </Link>
     </footer>
