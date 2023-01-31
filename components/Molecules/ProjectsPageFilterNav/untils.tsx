@@ -3,19 +3,17 @@ import { DiJavascript1 } from "react-icons/di";
 import { SiRedux, SiWebflow, SiTypescript, SiNextdotjs } from "react-icons/si";
 
 export const projects = [
-  // {
-  //   name: "Blog",
-  //   tech: [
-  //     { name: "WebFlow", icon: <SiWebflow /> },
-  //     { name: "React", icon: <FaReact /> },
-  //   ],
-  //   image: {
-  //     src: "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1600",
-  //     alt: "",
-  //   },
-  //   description: "LoreLoremLoremLoremLorem Lorem LoremLorem LoremLoremm",
-  //   href: "",
-  // },
+  {
+    name: "Blog",
+    tech: [{ name: "WebFlow", icon: <SiWebflow /> }],
+    image: {
+      src: "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      alt: "",
+    },
+    description:
+      "A blog about programming. There are posts about JS, React, HTML, CSS, TS and Next.js",
+    href: "https://www.bartosz-lewandowski-blog.pl/",
+  },
   // {
   //   name: "Shop",
   //   tech: [{ name: "WebFlow", icon: <SiWebflow /> }],
