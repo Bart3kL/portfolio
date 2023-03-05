@@ -10,7 +10,7 @@ export const HomePageDescription = () => {
         {"//"} I am very pleased to host you on my site
       </p>
       <p className={styles.wrapperText}>
-        {"//"} I hope its not a waste of time for you
+        {"//"} I hope you will learn many interesting things
       </p>
       <div className={styles.wrapperGitHub}>
         <span className={styles.wrapperGitHubVariable}>const</span>

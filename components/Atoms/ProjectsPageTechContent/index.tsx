@@ -10,6 +10,7 @@ const ProjectsPageTechContent = ({
   tech,
   description,
   name,
+  href,
 }: ProjectsPageTechContentProps) => {
   return (
     <div className={styles.wrapper}>
@@ -21,7 +22,7 @@ const ProjectsPageTechContent = ({
         <div className={styles.wrapperContentDetails}>{description}</div>
         <div className={styles.wrapperContentBottomBlock}>
           <button className={styles.wrapperContentBottomBlockButton}>
-            <a href="">view-project</a>
+            <a href={href}>view-project</a>
           </button>
           <ul className={styles.wrapperContentBottomBlockTech}>
             {tech.map(({ icon }: { icon: ReactNode }, i: number) => (

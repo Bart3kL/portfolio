@@ -18,31 +18,34 @@ const HelloPageStartContent = () => {
             </h5>
             <ul className={styles.wrapperContentShortcutsBlockList}>
               <li>
-                <a href="http://">
-                  Newer Things to Know About Good Ol’ HTML Lists
+                <a href="https://www.jestemprogramista.pl/blog/javascript-co-to-jest-i-dlaczego-warto-go-poznac">
+                  JavaScript: Co to jest i dlaczego warto go poznać?
                 </a>
               </li>
               <li>
-                <a href="http://">More Than “Slapping Paint on a Website”</a>
+                <a href="https://www.jestemprogramista.pl/blog/css-podstawy-skladni">
+                  Selektory w css
+                </a>
               </li>
               <li>
-                <a href="http://">CSS Grid and Custom Shapes, Part 3</a>
+                <a href="https://www.jestemprogramista.pl/blog/jak-korzystac-z-gita">
+                  Jak korzystać z gita
+                </a>
               </li>
             </ul>
           </div>
           <div className={styles.wrapperContentShortcutsBlock}>
             <h5 className={styles.wrapperContentShortcutsBlockName}>
-              Top 3 projects
+              Top 2 projects
             </h5>
             <ul className={styles.wrapperContentShortcutsBlockList}>
               <li>
-                <a href="http://">English Platform</a>
+                <a href="https://polyglot-bart3kl.vercel.app/">
+                  English Platform
+                </a>
               </li>
               <li>
-                <a href="http://">Blog</a>
-              </li>
-              <li>
-                <a href="http://">Bank</a>
+                <a href="https://www.jestemprogramista.pl/">Blog</a>
               </li>
             </ul>
           </div>
